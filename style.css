@@ -12,9 +12,8 @@ body {
     font-size: 11px;
 }
 
-#pessoal {
+img#pessoal {
     border-radius: 300px;
-    
     max-width: 50%;
 }
 
