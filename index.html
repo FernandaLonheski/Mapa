@@ -11,31 +11,33 @@
 </head>
 <body>
 
-    <i id="burger" class="material-icons" onclick="clickMenu()">more_horiz</i>
-    <menu id="itens">
-        <ul class="menu">
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </menu>
-
-
+    <header>
+        <i id="burger" class="material-icons" onclick="clickMenu()">more_horiz</i>
+        <menu id="itens">
+            <ul class="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#social">Contato</a></li>
+            </ul>
+        </menu>
+    
+    </header>
+    
     <div class="inicio">
         <h1>Fernanda Schubert Lonheski</h1>
-        <img src="Imagens/Fernanda.jpg" alt="Foto de Fernanda">
+        <img id="pessoal" src="/Imagens/Fernanda.jpg" alt="Foto de Fernanda">
         <h2>Estudante do curso de Sistemas para Internet na Unicesumar</h2>
         <hr>
     </div>
 
     <div class="sobre">
-        <p>Estou em busca de estágio na área de desenvolvimento web.</p>
+        <p><a name="sobre"></a>Estou em busca de estágio na área de desenvolvimento web.</p>
         <hr>
     </div>
     
      
     <div class="redes">
         <footer>
-            <p>Link para minhas redes sociais:</p>
+            <p> <a name="social">Link para minhas redes sociais:</a></p>
             <ul class="media">
                 <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/fernandaschubertlonheski/" target="_blank">Linkedin </a></li>
                 <li><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/fernanda.schubert3/" target="_blank">Facebook</a></li>
